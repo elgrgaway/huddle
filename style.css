@@ -1,0 +1,265 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+body {
+    padding: 0;
+    margin: 0;
+}
+section {
+    margin-bottom: 100px;
+}
+.fr-sec {
+    background: url(/images/bg-hero-desktop.svg) no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-color: rgb(245, 247, 248);
+    min-height: 80vh;
+}
+header {
+    width: 100%;
+    padding: 40px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header a img,
+.log
+{
+    width: 150px;
+}
+.try-btn {
+    background-color: white;
+    padding: 9px 30px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: 0.15s ease;
+
+}
+.try-btn:hover {
+    background-color: rgb(233, 232, 232);
+}
+.content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.content .info h2 {
+    font-size: 1.8em;
+    font-weight: 600;
+}
+.info p {
+    width: 28em;
+    font-size: 1.1em;
+    color: rgb(59, 58, 58);
+}
+.content div img {
+    width: 600px;
+}
+.get-btn {
+    display: inline-block;
+    background-color: hsl(322, 100%, 66%);
+    color: white;
+    padding: 12px 40px;
+    border-radius: 20px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.15s ease;
+    margin-bottom: 40px;
+}
+.get-btn:hover {
+    background-color: hsl(322, 63%, 45%);
+}
+
+.card {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px;
+    margin: 30px 100px;
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.15);
+    border-radius: 10px;
+    transition: 0.15s ease;
+}
+.card:hover {
+    transform: scale(1.03);
+}
+.card h3 {
+    font-weight: 700;
+    font-size: 1.5em;
+}
+.card p {
+    max-width: 450px;
+    color: rgb(179, 174, 174);
+    font-weight: 600;
+}
+.card-icon {
+    width: 300px;
+}
+.third-sec {
+
+    margin-top: 200px;
+    position: relative;
+    background-color: rgb(70, 67, 88);
+    min-height: 60vh;
+    width: 100%;
+}
+.container {
+    width: 90%;
+    margin: auto;
+}
+.question-card {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+    padding: 30px 60px;
+    border-radius: 10px;
+    left: 50%;
+    top: -130px;
+    transform: translate(-50%);
+    
+}
+.question-card h3 {
+    font-weight: bold;
+    font-size: 1.5em;
+    margin-bottom: 40px;
+}
+.get2 {
+    display: inline-block;
+    background-color: hsl(322, 100%, 66%);
+    color: white;
+    padding: 15px 60px;
+    border-radius: 40px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.15s ease;
+    font-size: 1.1em;
+}
+.get2:hover {
+    background-color: hsl(322, 63%, 45%);
+}
+.logo  .fo-lo{
+    width: 180px;
+    margin-top: 100px;
+}
+.foot {
+    display: flex;
+    align-self: center;
+    justify-content: space-between;
+}
+.foot .first {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.icon-info-foot {
+    display: flex;
+    margin-top: 20px;
+    color: white;
+}
+.icon-foot {
+    margin-right: 20px;
+}
+.middle div {
+    margin-top: 20px;
+    color: white;
+}
+.copy-right {
+    text-align: end;
+    color: white;
+    padding: 20px 0;
+}
+@media screen and (max-width:450px){  
+.fr-sec {
+    min-height: 50vh;
+}
+header a img,
+.log
+{
+    width: 100px;
+}
+.try-btn {
+    padding: 4px 10px;
+    font-size: 12px;
+}
+.content {
+    padding-bottom: 60px;
+    column-gap: 5px;
+}
+
+.content .info h2 {
+    font-size: 1.2em;
+}
+.info p {
+    font-size: 0.8em;
+    width: 200px;
+}
+.get-btn {
+    padding: 8px 12px;
+    font-size: 11px;
+    width: 150px;
+    margin: auto;
+    text-align: center;
+    display: block;
+}
+    .container {
+        width: 95%;
+        margin: auto;
+    }
+    .content div img {
+        width: 180px;
+    }
+    section {
+        margin-bottom: 60px;
+    }
+    
+    .card {
+        padding: 15px;
+        margin: 20px 10px;
+        column-gap: 5px;
+    }
+    .question-card h3 {
+        font-size: 1.1em;
+        margin-bottom: 20px;
+    }
+    .card p {
+        font-size: 0.7em;
+    }
+    .card-icon {
+        width: 150px;
+    }
+    .third-sec {
+        margin-top: 100px;
+        min-height: 30vh;
+    }
+    .question-card {
+        padding: 10px;
+        top: -60px;
+    }
+    .question-card h3 {
+        font-size: 0.7em;
+    }
+    .get2 {
+        padding: 8px 12px;
+        font-size: 0.6em;
+    }
+    .logo  .fo-lo{
+        width: 100px;
+        margin-top: 50px;
+    }
+    .middle div,
+    .icon-info-foot {
+        margin-top: 20px;
+        color: white;
+        line-height: 1.5;
+        font-size: 0.6em;
+    }
+    .copy-right {
+        font-size: 0.6em;
+    }
+}
